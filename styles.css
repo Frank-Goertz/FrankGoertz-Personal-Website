@@ -443,6 +443,15 @@ body {
     font-size: 1em;
     text-align: center;
 }
+#impressum-btn {
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 47%;
+    text-decoration: none;
+}
 @keyframes apear {
     from { opacity: 0; 
            scale: 0.95;
@@ -472,4 +481,9 @@ body {
 		opacity: 1;
 		transform: translateY(0);
 	}
+}
+.container-impressum {
+    align-self: center;
+    text-align: center;
+    margin-top: 100px;
 }
